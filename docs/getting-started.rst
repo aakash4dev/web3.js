@@ -23,7 +23,8 @@ First you need to get web3.js into your project. This can be done using the foll
 
 - npm: ``npm install web3``
 - yarn: ``yarn add web3``
-- pure js: link the ``dist/web3.min.js``
+- pure js: link the ``<script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>`` or ``
+<script src="https://unpkg.com/web3@latest/dist/web3.min.js"></script>``
 
 After that you need to create a web3 instance and set a provider.
 
